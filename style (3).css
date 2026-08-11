@@ -1,0 +1,88 @@
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.SignUp-Box{
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;
+}
+.header{
+    text-align: center;
+    padding: 11px 15px 12px;
+    border-bottom: 1px solid #dddfe2; 
+}
+.header h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c1e21;
+}
+.header p{
+    font-size: 15px;
+    color: #606770;
+}
+form{
+    padding: 14px;
+}
+button{
+    display: block;
+    width: 165px;
+    height: 32px;
+    margin: 10px auto;
+    background-color: #008400;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.name-row{
+    margin-bottom: 10px;
+}
+.ful-input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.gender-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.gender-option{
+    width: 70px;
+    height: 20px;
+    border: 1px solid #dddfe2;
+    padding: 7px 8px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.gender-option input{
+    margin-right: 5px;
+}
+select-row{
+   display: flex;
+   margin-bottom: 10px;
+   justify-content: space-between;   
+}
+.login-hyperlink{
+    display:block;
+    text-align:center;
+}

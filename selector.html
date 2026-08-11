@@ -1,0 +1,54 @@
+<!-- CSS Selector allow us to choose specific element and apply style to them 
+  There are 5 types of selector
+  1.Universal Selector
+  2.Element Selector
+  3.Class Selector
+  4.ID Selector
+  5.Group Selector-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: rgb(249, 17, 75);
+            text-align: center;
+        }
+        h3{
+            color: rgb(248, 255, 47);
+        }
+        #demo{
+            color: red;
+            text-align: right;
+        }
+        .p1{
+            color:brown;
+        }
+        .p2{
+            color: rgb(0, 255, 38);
+        }
+        h1,h2,h3{
+            background-color: rgb(0, 208, 255);
+        }
+    </style>
+</head>
+<body>
+    <!-- Universal Selector is represented by * targets to all html elements on same page -->
+    <h1>here we are learning selectors</h1>
+   <h2>Learning CSS Selectors</h2>
+
+    <!-- Element Selector selects the target element based on specific type -->
+    <h3>Element Selector</h3>
+
+    <!-- ID Selector targets the element based on specific id and it written using # character -->
+    <h4 id="demo">I am the web developer</h4>
+
+    <!-- Class Selector helps to group various types of elements and it written using the . character-->
+     <p class="p1">I am the fresher learning MERN stack</p>
+     <p class="p2"> I want to become a full-stack developer</p>
+
+     <!-- Group selector is used to minimize the code and it uses , to separate each selector in group -->
+</body>
+</html>
